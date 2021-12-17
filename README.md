@@ -9,6 +9,13 @@ copy [android.jar(API 30)](./libs/platforms/android-30/android.jar) to replace `
 adb install ./app/build/outputs/apk/debug/app-debug.apk
 ```
 
+3)
+```
+adb shell pm grant com.zacharee1.systemuituner android.permission.WRITE_SECURE_SETTINGS
+adb shell pm grant com.zacharee1.systemuituner android.permission.PACKAGE_USAGE_STATS
+adb shell pm grant com.zacharee1.systemuituner android.permission.DUMP
+```
+
 # About
 SystemUI Tuner is an app for viewing and modifying hidden settings on Android devices.
 
