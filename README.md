@@ -1,3 +1,14 @@
+
+1)
+copy [android.jar(API 30)](./libs/platforms/android-30/android.jar) to replace `<SDK-dir>/platforms/android-30/android.jar`
+
+2)
+```bash
+./gradlew :app:assembleDebug
+
+adb install ./app/build/outputs/apk/debug/app-debug.apk
+```
+
 # About
 SystemUI Tuner is an app for viewing and modifying hidden settings on Android devices.
 

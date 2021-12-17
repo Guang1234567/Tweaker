@@ -4,6 +4,6 @@ rootProject.name='Tweaker'
 include ':app', ':seekbar', ':category', ':expandabletv'
 
 //Comment or remove these lines.
-project(':seekbar').projectDir = new File("..\\SeekBarPreference\\library")
-project(':category').projectDir = new File("..\\CollapsiblePreferenceCategory\\library")
-project(':expandabletv').projectDir = new File("..\\Android-ExpandableTextView\\expandabletextview")
+project(':seekbar').projectDir = new File(".\\libs\\SeekBarPreference\\library")
+project(':category').projectDir = new File(".\\libs\\CollapsiblePreferenceCategory\\library")
+project(':expandabletv').projectDir = new File(".\\libs\\Android-ExpandableTextView\\expandabletextview")

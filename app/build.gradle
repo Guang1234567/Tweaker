@@ -5,12 +5,12 @@ apply plugin: 'com.google.gms.google-services'
 apply plugin: 'com.google.firebase.crashlytics'
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 30
 
     defaultConfig {
         applicationId "com.zacharee1.systemuituner"
         minSdkVersion 23
-        targetSdkVersion 31
+        targetSdkVersion 30
         versionCode 331
         versionName versionCode.toString()
     }
@@ -47,15 +47,15 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2'
 
-    implementation 'androidx.appcompat:appcompat:1.4.0'
-    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'androidx.core:core-ktx:1.6.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
     implementation 'androidx.annotation:annotation:1.3.0'
     implementation 'androidx.preference:preference-ktx:1.1.1'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
-    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'com.google.android.material:material:1.3.0'
     implementation 'com.google.firebase:firebase-analytics:20.0.1'
     implementation 'com.google.firebase:firebase-crashlytics:18.2.6'
     implementation 'com.google.code.gson:gson:2.8.9'
@@ -87,9 +87,9 @@ dependencies {
     //Check JitPack for the latest COMMIT hashes, NOT the latest versions.
     //The "Tag" reference should be replaced with the commit hash.
     implementation project(':seekbar')
-    //implementation 'com.github.zacharee:SeekBarPreference:Tag'
+    //implementation 'com.github.zacharee:SeekBarPreference:d420db25e1'
     implementation project(':category')
-    //implementation 'com.github.zacharee:CollapsiblePreferenceCategory:Tag'
+    //implementation 'com.github.zacharee:CollapsiblePreferenceCategory:41e663'
     implementation project(':expandabletv')
-    //implementation 'com.github.zacharee:Android-ExpandableTextView:Tag'
+    //implementation 'com.github.zacharee:Android-ExpandableTextView:e44669'
 }
